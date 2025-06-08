@@ -23,10 +23,10 @@ export const ContactSection = () => {
 
   emailjs
     .sendForm(
-      "service_mxv6qrp",      // Your EmailJS service ID
-      "template_txgzdlf",     // Your EmailJS template ID
+      "service_p9yaop9" ,
+      "template_q1asqgo" ,
       e.target,               // The form element
-      "7JZ1239M42xtGx0RI"     // Your public key (user ID)
+      "HXBuCynQn79LmM7M7" // Your user ID from EmailJS
     )
     .then(
       (result) => {
